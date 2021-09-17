@@ -1,10 +1,10 @@
 [
-    {"nama":"Acer Predator Helios 300", "harga":"Rp.20.000.000,-", "midend":true, "isPriceBold":"False","image":"./assets/img/acerpredatorhelios300.png", "isads":"True"},
-    {"nama":"ASUS TUF F15", "harga":"Rp.19.000.000,-", "midend":true, "isPriceBold":"True", "image":"./assets/img/asustuff15.png", "isads":"False"},
-    {"nama":"MSI GS76 Stealth", "harga":"Rp.50.000.000", "highend":true, "isPriceBold":"True", "image":"./assets/img/msigs76stealth.webp", "isads":"False"},
-    {"nama":"ROG Strix G15 G513", "harga":"Rp.16.999.000", "midend":true,"isPriceBold":"True", "image":"./assets/img/Laptop3.png", "isads":"False"},
-    {"nama":"Lenovo Ideapad 320", "harga":"Rp.10.555.000", "lowend":true,"isPriceBold":"True", "image":"./assets/img/Laptop4.png", "isads":"False"},
-    {"nama":"Asus Vivobook S15", "harga":"Rp.11.000.000", "lowend":true,"isPriceBold":"True", "image":"./assets/img/asuss15.png", "isads":"False"},
-    {"nama":"Dell Inspiron GAMING 15 5575 RYZEN 5", "harga":"Rp.8.499.000", "lowend":true, "isPriceBold":"True", "image":"./assets/img/dellgame.png", "isads":"False"},
-    {"nama":" Dell XPS 15 2-in-1 ", "harga":"Rp.20.799.000", "highend":true, "isPriceBold":"True", "image":"./assets/img/Laptop2.jpg", "isads":"False"}
+    {"id":0, "nama":"Acer Predator Helios 300", "harga":"Rp.20.000.000,-", "midend":true, "isPriceBold":"False","image":"./assets/img/acerpredatorhelios300.png", "isads":"True"},
+    {"id":1, "nama":"ASUS TUF F15", "harga":"Rp.19.000.000,-", "midend":true, "isPriceBold":"True", "image":"./assets/img/asustuff15.png", "isads":"False"},
+    {"id":2, "nama":"MSI GS76 Stealth", "harga":"Rp.50.000.000", "highend":true, "isPriceBold":"True", "image":"./assets/img/msigs76stealth.webp", "isads":"False"},
+    {"id":3, "nama":"ROG Strix G15 G513", "harga":"Rp.16.999.000", "midend":true,"isPriceBold":"True", "image":"./assets/img/Laptop3.png", "isads":"False"},
+    {"id":4, "nama":"Lenovo Ideapad 320", "harga":"Rp.10.555.000", "lowend":true,"isPriceBold":"True", "image":"./assets/img/Laptop4.png", "isads":"False"},
+    {"id":5, "nama":"Asus Vivobook S15", "harga":"Rp.11.000.000", "lowend":true,"isPriceBold":"True", "image":"./assets/img/asuss15.png", "isads":"False"},
+    {"id":6, "nama":"Dell Inspiron GAMING 15 5575 RYZEN 5", "harga":"Rp.8.499.000", "lowend":true, "isPriceBold":"True", "image":"./assets/img/dellgame.png", "isads":"False"},
+    {"id":7, "nama":" Dell XPS 15 2-in-1 ", "harga":"Rp.20.799.000", "highend":true, "isPriceBold":"True", "image":"./assets/img/Laptop2.jpg", "isads":"False"}
 ]
