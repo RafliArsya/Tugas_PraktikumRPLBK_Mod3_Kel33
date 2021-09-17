@@ -111,7 +111,7 @@ class Parent extends Component {
     render() { 
         return ( 
             <> 
-                <h1>Ini Parent</h1> 
+                <h1>Katalog Laptop</h1> 
                 <div style={{ display: "flex" }}> 
                     <div style={{ width: "30%" }}> 
                         <button 

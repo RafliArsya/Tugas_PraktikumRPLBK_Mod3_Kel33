@@ -13,11 +13,14 @@ class LowEnd extends React.Component {
     componentDidMount() { 
         alert(`Lah miskin cari laptop lowend`) 
     }
+    componentWillUnmount() {
+        alert(`Terimakasihh ^^ Silakan klik OK untuk mengakhiri`) 
+      }
 
     incrementCount = (e) => {
         const gid = e.target.id
         console.log(gid);
-        this.setState(this.state.laptop.map((damt) => {if(gid==damt.id && damt.amount<9){
+        this.setState(this.state.laptop.map((damt) => {if(gid===damt.id && damt.amount<9){
             Object.assign(damt, {amount: damt.amount+1})
         }}))
         console.log(this.state.laptop)
@@ -27,7 +30,7 @@ class LowEnd extends React.Component {
     decrementCount = (e) => {
         const gid = e.target.id
         console.log(gid);
-        this.setState(this.state.laptop.map((damt) => {if(gid==damt.id && damt.amount>0){
+        this.setState(this.state.laptop.map((damt) => {if(gid===damt.id && damt.amount>0){
             Object.assign(damt, {amount: damt.amount-1})
         }}))
         console.log(this.state.laptop)
@@ -48,7 +51,7 @@ class LowEnd extends React.Component {
                                  <span aria-hidden="true" className="absolute inset-0" />{data.harga}
                             </h3>
                         </div>
-                        {this.state.laptop.map((damt) => {if(data.id==damt.id){
+                        {this.state.laptop.map((damt) => {if(data.id===damt.id){
                                     return(
                                     <table>
                                     <tr>
