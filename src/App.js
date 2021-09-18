@@ -28,6 +28,13 @@ class App extends React.Component{
   render(){
     return(
       <div className="App">
+        <header className="App-header">
+        <div className="text">
+        <p>
+          KATALOG LAPTOP
+        </p>
+        </div>
+        </header>
         <Parent />
       </div>
     )

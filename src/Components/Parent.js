@@ -111,21 +111,21 @@ class Parent extends Component {
     render() { 
         return ( 
             <> 
-                <h1>Katalog Laptop</h1> 
+                {/* <h1>Katalog Laptop</h1>  */}
                 <div style={{ display: "flex" }}> 
-                    <div style={{ width: "30%" }}> 
+                    <div style={{ width: "35%" }}> 
                         <button 
 onClick={this.togglelowend}>{this.state.LowEnd ? 'Sembunyikan' : 
 'Tampilkan'} Low End!</button> 
                         {this.state.LowEnd && <LowEnd mydata={this.state.myjson} myamt={this.state.laptop} mystate={this.state.screenstate}/>} 
                     </div> 
-                    <div style={{ width: "30%" }}> 
+                    <div style={{ width: "35%" }}> 
                         <button 
 onClick={this.togglemidend}>{this.state.MidEnd ? 'Sembunyikan' : 
 'Tampilkan'} Mid End!</button> 
                         {this.state.MidEnd && <MidEnd mydata={this.state.myjson} myamt={this.state.laptop} mystate={this.state.screenstate}/>} 
                     </div> 
-                    <div style={{ width: "30%" }}> 
+                    <div style={{ width: "35%" }}> 
                         <button 
 onClick={this.togglehighend}>{this.state.HighEnd ? 'Sembunyikan' : 
 'Tampilkan'} High End!</button> 
